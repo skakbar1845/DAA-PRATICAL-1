@@ -2,7 +2,7 @@
 
 def merge_sort(arr):
     if len(arr) <= 1:
-        return arr
+     return arr
 
     mid = len(arr) // 2
 
@@ -11,17 +11,16 @@ def merge_sort(arr):
 
     result = []
 
-    while left and right:
-        if left[0] < right[0]:
-            result.append(left.pop(0))
+ while left and right:
+ if left[0] < right[0]:
+     result.append(left.pop(0))
         else:
-            result.append(right.pop(0))
+     result.append(right.pop(0))
 
     result.extend(left)
     result.extend(right)
 
     return result
-
 
 n = int(input("Enter number of elements: "))
 
