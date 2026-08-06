@@ -8,7 +8,7 @@ print("Enter elements:")
 for i in range(n):
     arr.append(int(input()))
 
-# Selection Sort
+
 for i in range(n):
     min_index = i
 
